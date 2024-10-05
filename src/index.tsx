@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import BranchIapProvider from './provider/BranchIapProvider';
+import useBranchIapProvider from './provider/useBranchIapProvider';
+
+export { BranchIapProvider, useBranchIapProvider };
